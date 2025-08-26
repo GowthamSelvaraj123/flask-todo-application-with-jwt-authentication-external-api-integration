@@ -74,7 +74,6 @@ class Logout(Resource):
         return {"message": "Logout successful"}
 
 
-# ---------------- Todo Resources ----------------
 @ns.route('/todo/save')
 class SaveTodos(Resource):
     def post(self):
